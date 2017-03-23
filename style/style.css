@@ -1,0 +1,49 @@
+body{
+  box-sizing: border-box;
+  height: 600px;
+  width: 100%;
+  background: #00BDFD;
+}
+.counter-container{
+  position: fixed;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   transition: 1.8s;
+}
+.Count{
+  font-size: 6vw;
+  color: #3E4447;
+  font-family: sans-serif;
+}
+.button-container{
+  display: flex;
+  width: 100%
+}
+
+.button{
+  margin: auto;
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  color: #00BDFD;
+  font-size: 4vw;
+  background: #3E4447;
+}
+.amountButton{
+  font-size: 1vw;
+}
+.Set-To-Zero-Container{
+  width: 100%;
+  display: flex;
+}
+#amount-button-container{
+  margin-top: 20px;
+}
+
+#set-To-Zero{
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
