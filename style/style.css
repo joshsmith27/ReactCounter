@@ -77,11 +77,22 @@ body{
   font-size: 6vw;
 
 }
+.calculator-container{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1.8s;
+  color: #3E4447;
+  text-align: center;
+}
 .calculator-numberButton-Container{
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 75%;
   margin: auto;
+  justify-content: center;
 }
 
 
@@ -98,6 +109,7 @@ body{
   width: 70%;
   display: flex;
   margin: auto;
+  justify-content: center;
 }
 .SpecialKeys{
   margin: 10px;
@@ -111,8 +123,9 @@ body{
   color: #3E4447;
 }
 .display-container{
-  width: 67%;
+  width: 63%;
   margin: auto;
+  width: 70%;
 }
 .display{
   border: none;
@@ -127,4 +140,36 @@ body{
 }
 .numbers-operators-container{
   display: flex;
+}
+.count-stop-watch{
+  text-align: center;
+  font-size: 6vw;
+  font-weight: 400;
+}
+.button-container-stopwatch{
+  margin: auto;
+  display: flex;
+  text-align: center;
+  width: 71%;
+}
+.button-stop-watch{
+  width: 40%;
+  margin: auto;
+  font-size: 4vw;
+  border: none;
+  color: #00BDFD;
+  background: #3E4447;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.StopWatch-container{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1.8s;
+  color: #3E4447;
+  text-align: center;
 }
