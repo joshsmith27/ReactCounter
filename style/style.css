@@ -173,3 +173,40 @@ body{
   color: #3E4447;
   text-align: center;
 }
+.timer-container{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1.8s;
+  color: #3E4447;
+  text-align: center;
+}
+.timer-title{
+  font-size: 5vw;
+  text-align: center;
+}
+.time-input{
+  padding-left: 7px;
+  font-size: 4vw;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #3E4447;
+  width: 50%;
+  background: transparent;
+}
+.timer-button-contianer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.timer-buttons{
+  border-radius: 5px;
+  font-size: 3vw;
+  margin: 20px;
+  border: none;
+  color: #00BDFD;
+  background: #3E4447;
+}

@@ -1,64 +1,5 @@
 import React, {Component} from 'react';
 
-// class StopWatch extends Component{
-//   constructor(props){
-//     super(props);
-//     this.state ={
-//       seconds: 0,
-//       minutes: 0,
-//       hours: 0,
-//       timeStarted: false,
-//       intervalId: undefined
-//     };
-//   }
-//
-//   render(){
-//     return (
-//       <div>
-//       <p>HR:{this.state.hours}   MIN:{this.state.minutes}   SEC:{this.state.seconds}</p>
-//       <button onClick={this.Start.bind(this)}>START</button>
-//       <button onClick={this.Reset.bind(this)}>RESET</button>
-//       </div>
-//     );
-//   }
-//   tick(){
-//     let seconds = this.state.seconds;
-//     let minutes = this.state.minutes;
-//     let hours = this.state.hours;
-//       this.setState({seconds: this.state.seconds + 1})
-//       if(this.state.seconds > 59){
-//         this.setState({
-//           minutes: minutes + 1,
-//           seconds: 0
-//         })
-//
-//
-//       }
-//       if(minutes > 59){
-//         this.setState({
-//           hours: hours + 1,
-//           minutes: 0
-//         })
-//       }
-//     }
-//
-//   Start(){
-//       let ticker = setInterval(this.tick(), 1000)
-//   }
-//   Reset(){
-//     if(this.state.seconds > 0 ){
-//       this.setState({
-//         seconds: 0,
-//         minutes: 0,
-//         hours: 0,
-//       });
-//     }else{
-//       this.setState({
-//         seconds: this.state.seconds
-//       });
-//     }
-//   }
-// }
 var StopWatch = React.createClass({
   getInitialState: function() {
     return {
@@ -82,7 +23,7 @@ var StopWatch = React.createClass({
   },
   onClick: function() {
     if(!this.state.isStart) { // start
-      var timer = setInterval(this.tick, 33);
+      var timer = setInterval(this.tick, 1000);
       this.setState({
         isStart: true,
         timer: timer,
