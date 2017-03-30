@@ -16,12 +16,8 @@ class Calculator extends Component {
     var allowFutureDecimal = true;
     switch(inp){
       case "BACK":
-      if(this.state.calc){
-        var st = this.state.calc;
-        var out = st.substr(0, st.length-1);
-      }else{
-        out = '';
-      }
+      var st = this.state.calc;
+      var out = st.substr(0, st.length-1);
       break;
 
       case "=":

@@ -22,7 +22,7 @@ body{
 }
 .component-container{
   width: 50%;
-  height: 600px;
+  height: 40em;
   position: relative;
 }
 .counter-container{
