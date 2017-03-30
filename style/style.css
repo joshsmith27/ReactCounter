@@ -3,15 +3,6 @@ body{
   width: 100%;
   background: #00BDFD;
 }
-.title-image{
-  width: 30%;
-  margin-bottom: -100px;
-}
-
-
-
-
-
 .title{
   width: 70%;
   margin: auto;
@@ -20,6 +11,11 @@ body{
   color: #3E4447;
   justify-content: center;
 }
+.title-image{
+  width: 30%;
+  margin-bottom: -75px;;
+}
+
 
 .components-container{
   width: 100%;
@@ -49,6 +45,7 @@ body{
   display: flex;
   width: 100%
 }
+
 
 .button{
   margin: auto;
@@ -105,12 +102,18 @@ body{
   color: #3E4447;
   text-align: center;
 }
+
 .calculator-numberButton-Container{
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 85%;
   margin: auto;
   justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .calculator-numberButton-Container {
+    width:75%;
+  }
 }
 
 
@@ -140,8 +143,8 @@ body{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #3E4447;
 }
+
 .display-container{
-  width: 63%;
   margin: auto;
   width: 70%;
 }
@@ -152,6 +155,11 @@ body{
   text-align: right;
   font-size: 7vw;
   color: #3E4447;
+}
+@media screen and (min-width: 992px) {
+  .display {
+    width:87%;
+  }
 }
 .Operator-Buttons-Container{
   width: 10%;
