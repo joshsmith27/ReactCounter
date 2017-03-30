@@ -16,12 +16,12 @@ const App = () =>{
           <Counter/>
         </div>
         <div className="component-container">
-          <Clock/>
+          <Calculator/>
         </div>
       </div>
       <div className = "components-container">
         <div className="component-container">
-          <Calculator/>
+          <Clock/>
         </div>
         <div className="component-container">
           <StopWatch/>
