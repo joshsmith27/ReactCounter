@@ -9,6 +9,8 @@ const App = () =>{
 
   return(
     <div>
+      <div className="title"> <img className="title-image" src = "src/components/images/react.svg"/></div>
+
       <div className = "components-container">
         <div className="component-container">
           <Counter/>

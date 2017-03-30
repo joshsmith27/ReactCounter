@@ -3,6 +3,24 @@ body{
   width: 100%;
   background: #00BDFD;
 }
+.title-image{
+  width: 30%;
+  margin-bottom: -100px;
+}
+
+
+
+
+
+.title{
+  width: 70%;
+  margin: auto;
+  font-size: 6vw;
+  text-align: center;
+  color: #3E4447;
+  justify-content: center;
+}
+
 .components-container{
   width: 100%;
   display: flex;
